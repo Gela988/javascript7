@@ -1,0 +1,58 @@
+body{
+    width: 1300px;
+    background-color: gray;
+}
+.li-users {
+    display: flex;
+    flex-direction: column;
+}
+#user-list {
+    display: flex;
+}
+.image-class {
+    height: 100px;
+    object-fit: contain;
+}
+
+.posts {
+    width: 235px;
+    background-color: black;
+    padding: 29px;
+    margin-left: 28px;
+    margin-bottom: 32px;
+    border: 2px solid red;
+}
+
+
+.posts h1, h3{
+    display: flex;
+    justify-content: center;
+    color: #067ef9;
+}
+
+
+.overlay {
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    opacity: 70%;
+    display: none;
+}
+.close {
+    position: absolute;
+    right: 40px;
+    font-size: 70px;
+    color: red;
+    cursor: pointer;
+}
+.overlay.active {
+    display: block;
+}
+.post-wraper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
